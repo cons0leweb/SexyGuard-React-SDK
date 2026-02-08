@@ -1,0 +1,14 @@
+{
+  "name": "sexyguard-react-sdk",
+  "version": "1.2.0",
+  "description": "React SDK for SexyGuard / Native Guard JS Backend",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "@supabase/supabase-js": ">=2"
+  }
+}
