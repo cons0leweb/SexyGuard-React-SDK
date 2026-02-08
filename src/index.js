@@ -68,10 +68,6 @@ import React, { createContext, useContext, useEffect, useMemo, useRef, useState,
  * @property {number} [status]
  */
 
-// ─────────────────────────────────────────────────────────────
-// Utils
-// ─────────────────────────────────────────────────────────────
-
 /**
  * Typed SDK error.
  */
@@ -150,7 +146,6 @@ export function createTokenStorage({
     };
   }
 
-  // default localStorage
   return {
     get: () => {
       if (typeof window === 'undefined') return null;
