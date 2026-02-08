@@ -10,7 +10,7 @@ npm install ./react-sdk
 
 ---
 
-# ✅ REST API
+# REST API
 
 ```jsx
 import React from 'react';
@@ -28,7 +28,7 @@ export default function App() {
 
 ---
 
-# ✅ Supabase режим
+# Supabase режим
 
 ```jsx
 <SexyGuardProvider
@@ -41,9 +41,6 @@ export default function App() {
 ```
 
 ---
-
-# 🧩 Новое
-
 ### Модели (TypeScript)
 
 ```ts
@@ -88,7 +85,7 @@ useSupabaseRealtime('products', {
 
 ---
 
-## Hooks
+## Хуки
 
 - `useAuth()` — login / register / logout
 - `useSupabaseAuth()` — Supabase auth
@@ -101,7 +98,7 @@ useSupabaseRealtime('products', {
 
 ---
 
-## Utils
+## Утилиты
 
 - `createTokenStorage()` — storage для токена (cookie / memory / localStorage)
 - `SexyGuardError` + `normalizeError()`
